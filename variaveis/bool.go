@@ -4,7 +4,7 @@ import "fmt"
 
 func main() { 
 
-	a := 1000
+	a := 69
 
 	fmt.Printf("Decimal: %d,\tBoleando: %b,\tHexadecimal: %x", a, a, a)
 }
