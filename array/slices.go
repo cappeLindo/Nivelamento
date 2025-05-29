@@ -5,8 +5,8 @@ import "fmt"
 func main() { 
 	slice := []int{1, 2, 3, 4, 5}
 	fmt.Println(slice)
-    slice[2] = 555
-	slice2 := append(slice, 9)
-	fmt.Println(slice2)
-	fmt.Println(slice[2])
+	slice2 := []int{6,7,8,9,10}
+	fmt.Println(slice2, 10, 11, 12, 13)
+	slice = append(slice,  slice2...)
+	fmt.Println(slice)
 }

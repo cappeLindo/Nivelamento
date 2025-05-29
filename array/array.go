@@ -16,3 +16,4 @@ func main() {
 	fmt.Println("Quantas casas tem o array:", len(x))
 
 }
+
