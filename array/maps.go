@@ -11,13 +11,13 @@ func main() {
 		"Guei" : 17,
 	}
 
-	fmt.Println(amigos["Pretin"])
+	fmt.Println(amigos["Haigo"])
 
 	amigos["Carlos"] = 17
 	amigos["Nathan"] = 17
 	fmt.Println(amigos)
 
-	
+
 
 	if consultando_amigos, ok := amigos["Guei"]; !ok { 
 		fmt.Println("não existe!")
