@@ -18,7 +18,11 @@ func main() {
 			2 : "tenho hoob em jogo de tiro",
 		},
 	}
-	fmt.Printf("Nome: %v\nIdade: %v\nCaracteristicas: %v\n", s.nome, s.idade, s.carac)
+	fmt.Printf("Nome: %v\nIdade: %v\nCaracteristicas:", s.nome, s.idade)
+	for i := 0; i < len(s.carac); i++ { 
+		fmt.Printf("%v ", s.carac[i])
+	}
+	fmt.Println(" ")
 	for i, v := range s.hoobs { 
 		fmt.Printf("hoob %v : %v\n", i, v)
 	}
